@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>E-Waste Recycling</title>
 </head>
 <body>
 
     <!-- Header Section -->
-    <header>
-        <h1>E-Waste Recycling Solutions</h1>
-        <p>Your partner in sustainable technology disposal</p>
-    </header>
-
-    <!-- Navigation Menu -->
-    <nav>
+    <nav >
         <ul>
+            <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#pickup">Pick-Up</a></li>
             <li><a href="#map">Interactive Map</a></li>
@@ -24,42 +20,133 @@
             <li><a href="#educational">Educational Resources</a></li>
         </ul>
     </nav>
+    <section id="home">
+        <header>
+            <h1>E-Waste Recycling Solutions</h1>
+            <p id="typer"></p>
+        </header>
+    </section>
+
+    <!-- Navigation Menu -->
 
     <!-- Main Content Section -->
+<div class="black">
     <main>
         <!-- Services Section -->
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Explore our comprehensive e-waste recycling services.</p>
-            <!-- Include more content and visuals here -->
-        </section>
-
-        <!-- Pick-Up Request Form -->
-        <section id="pickup">
-            <h2>Pick-Up Request</h2>
-            <form action="#" method="POST">
-                <!-- Include form fields and submit button -->
-            </form>
-        </section>
-
-        <!-- Interactive Map Section -->
-        <section id="map">
-            <h2>Interactive Map</h2>
-            <!-- Include an interactive map (Google Maps, Leaflet, etc.) -->
-        </section>
-
-        <!-- Recycling Process Section -->
-        <section id="process">
-            <h2>Recycling Process</h2>
-            <!-- Include visuals and descriptions of the recycling process -->
-        </section>
-
-        <!-- Educational Resources Section -->
-        <section id="educational">
-            <h2>Educational Resources</h2>
-            <!-- Include articles, guides, and infographics -->
-        </section>
+        <div class="main">
+            <section id="services">
+                <h2>Our Services</h2>
+                <p>Explore our comprehensive e-waste recycling services.</p>
+                <!-- Include more content and visuals here -->
+                <div>We protect your computer data in accordance with top industry standards. That includes the Health Insurance Portability and Accountability Act, passed by Congress to set privacy rules for individual health information.</div>
+            </section>
+    
+            <!-- Pick-Up Request Form -->
+            
+        </div>
+        <img class="right" src="https://www.rvsolutions.in/wp-content/uploads/2018/09/green-solution.png" alt="image" srcset="">
     </main>
+    <div class="white">
+        <div class="main2">
+            
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <label for="inputState" class="form-label">Service</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Send Confirmation
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Request</button>
+                </div>
+              </form>
+              <section id="pickup">
+                <h2>Pick-Up Request</h2>
+            </section>
+            <!-- Interactive Map Section -->
+        </div>
+    </div>
+    <main>
+        <div class="left-right main">
+            <section id="map">
+                <h2>Interactive Map</h2>
+                <!-- Include an interactive map (Google Maps, Leaflet, etc.) -->
+            </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15556.177675820956!2d74.97479883260607!3d12.904865364339308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a7edab634bf9%3A0x5558cf4bed3a205!2sBenjanapadavu%2C%20Karnataka%20574219!5e0!3m2!1sen!2sin!4v1704351731505!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Recycling Process Section -->
+        </div>
+    </main>
+    <div class="white">
+        <div class="main2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cNPEH0GOhRw?si=Ztxgabd9LSrHDA4p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <section id="process">
+                <h2>Recycling Process</h2>
+                <!-- Include visuals and descriptions of the recycling process -->
+            </section>
+    
+            <!-- Educational Resources Section -->
+            
+        </div>
+    </div>
+    <main>
+        <div class="main">
+            <section id="educational">
+<div>
+    <h2>Educational Resources</h2>
+    <ul><li><a href="/wiki/2000s_commodities_boom" title="2000s commodities boom">2000s commodities boom</a></li>
+        <li><a href="/wiki/Computer_Recycling" class="mw-redirect" title="Computer Recycling">Computer Recycling</a></li>
+        <li><a href="/wiki/Digger_gold" class="mw-redirect" title="Digger gold">Digger gold</a></li>
+        <li><a href="/wiki/EDay" title="EDay">eDay</a></li>
+        <li><a href="/wiki/Electronic_waste_in_Japan" title="Electronic waste in Japan">Electronic waste in Japan</a></li>
+        <li><a href="/wiki/Green_computing" title="Green computing">Green computing</a></li>
+        <li><a href="/wiki/Mobile_phone_recycling" title="Mobile phone recycling">Mobile phone recycling</a></li>
+        <li><a href="/wiki/Material_safety_data_sheet" class="mw-redirect" title="Material safety data sheet">Material safety data sheet</a></li>
+        <li><a href="/wiki/Polychlorinated_biphenyls" class="mw-redirect" title="Polychlorinated biphenyls">Polychlorinated biphenyls</a></li>
+        <li><a href="/wiki/Retrocomputing" title="Retrocomputing">Retrocomputing</a></li>
+        <li><a href="/wiki/Radio_Row" title="Radio Row">Radio Row</a></li></ul>
+</div>                <!-- Include articles, guides, and infographics -->
+            </section>
+            <img class="big" src="https://techcollect.com.au/wp-content/uploads/2015/07/ANZRP-infographic-1075px1-860x600.jpg" alt="img">
+        </div>
+    </main>
+</div>
 
     <!-- Footer Section -->
     <footer>
